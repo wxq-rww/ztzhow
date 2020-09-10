@@ -54,6 +54,57 @@ public class ShiroConfig {
         filterMap.put("/druid/**", "anon");
         filterMap.put("/app/**", "anon");
         filterMap.put("/sys/login", "anon");
+
+
+
+        filterMap.put("/ztzhow/getztzhowMessage", "anon");
+        filterMap.put("/ztzhow/updateztzhowMessage", "anon");
+        filterMap.put("/ztzhow/addztzhowMessage", "anon");
+        filterMap.put("/ztzhow/deleteztzhowMessage", "anon");
+        filterMap.put("/ztzhow/getztzhowDocumentInfo", "anon");
+
+        filterMap.put("/ztzhow/getMenuManagement", "anon");
+        filterMap.put("/ztzhow/updateMenuManagement", "anon");
+        filterMap.put("/ztzhow/addMenuManagement", "anon");
+        filterMap.put("/ztzhow/deleteMenuManagement", "anon");
+
+
+        filterMap.put("/ztzhow/getBannerManagement", "anon");
+        filterMap.put("/ztzhow/updateBannerManagement", "anon");
+        filterMap.put("/ztzhow/addBannerManagement", "anon");
+        filterMap.put("/ztzhow/deleteBannerManagement", "anon");
+
+
+        filterMap.put("/ztzhow/getRotationImageManagement", "anon");
+        filterMap.put("/ztzhow/updateRotationImageManagement", "anon");
+        filterMap.put("/ztzhow/addRotationImageManagement", "anon");
+        filterMap.put("/ztzhow/deleteRotationImageManagement", "anon");
+
+        filterMap.put("/ztzhow/getTailInformationManagement", "anon");
+        filterMap.put("/ztzhow/updateTailInformationManagement", "anon");
+        filterMap.put("/ztzhow/addTailInformationManagement", "anon");
+        filterMap.put("/ztzhow/deleteTailInformationManagement", "anon");
+
+        filterMap.put("/ztzhow/getBannerRoleManagement", "anon");
+        filterMap.put("/ztzhow/updateBannerRoleManagement", "anon");
+        filterMap.put("/ztzhow/addBannerRoleManagement", "anon");
+        filterMap.put("/ztzhow/deleteBannerRoleManagement", "anon");
+
+
+        filterMap.put("/ztzhow/getReceptionMenuManagement", "anon");
+        filterMap.put("/ztzhow/getReceptionBannerRoleManagement", "anon");
+        filterMap.put("/ztzhow/getReceptionTailInformationManagement", "anon");
+        filterMap.put("/ztzhow/getReceptionRotationImageManagement", "anon");
+
+
+
+        filterMap.put("/sys/oss/upload", "anon");
+        filterMap.put("/sys/oss/config", "anon");
+
+
+
+
+
         filterMap.put("/swagger/**", "anon");
         filterMap.put("/v2/api-docs", "anon");
         filterMap.put("/swagger-ui.html", "anon");

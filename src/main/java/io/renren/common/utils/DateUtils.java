@@ -34,7 +34,8 @@ public class DateUtils {
      * @return  返回yyyy-MM-dd格式日期
      */
 	public static String format(Date date) {
-        return format(date, DATE_PATTERN);
+
+	    return format(date, DATE_PATTERN);
     }
 
     /**
